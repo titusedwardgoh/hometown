@@ -1,0 +1,125 @@
+* { 
+    margin: 0; 
+    color: #4b2735;
+    font-family: "Roboto Mono", monospace;
+   } 
+   
+header {
+    background-image: url("images/Singapore.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;             
+    display: flex;             
+    align-items: center;       
+    justify-content: center;   
+    text-align: center; 
+    object-position: 10% 10%;
+    object-fit: cover;  
+}
+
+#title {
+    display:inline-block;
+    background: #ED4D6E;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 30px;
+    box-sizing: border-box
+}
+
+#tag-line {
+    background:#DB6C79;
+    border-radius: 10px;
+    padding: 3px 30px;
+    font-size: 20px;
+    width:500px;
+    box-sizing: border-box
+}
+
+.activities-section {
+    background:#EBFEFE;
+    padding: 30px;
+    text-align: center;
+    height: 320px
+}
+
+.activity-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.activities-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.activities-description {
+    display: flex;              
+    justify-content: center;    
+    gap: 20px;                   
+}
+
+.activity {
+    width:400px;
+}
+
+.activity-title {
+    margin-bottom:5px;
+}
+
+.activity-description {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.yourguide {
+    height: 350px;
+    padding: 40px;
+    text-align: center;
+}
+
+.guide-pic {
+    width:200px;
+    height: 300px;
+    object-position: 50% 50%;
+    object-fit: cover;     
+    border-radius: 10px;
+}
+
+.card {
+    border-bottom: 5px solid black;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 25px 15px;
+    border-radius: 10px;
+    background: #bbccc0
+}
+
+.guide-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto 0;
+}
+
+.guide-title {
+    padding: 20px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.guide-description {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.guide-name {
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
